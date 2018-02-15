@@ -173,7 +173,7 @@ class Task {
     }
 }
 ~~~
-<!-- .element: style="font-size: 70%; width: 105%;" -->
+<!-- .element: style="font-size: 65%; width: 105%;" -->
 
 ~~~java
 import java.util.*;
@@ -189,7 +189,7 @@ class TaskManager {
     }
 }
 ~~~
-<!-- .element: style="font-size: 70%; width: 105%;" -->
+<!-- .element: style="font-size: 65%; width: 105%;" -->
 
 <!-- ~ 12minutes -->
 
