@@ -44,7 +44,7 @@
   <!-- .element class="fragment" -->
   - ロジックサマナー ~ 閃光の召喚プログラマ ~
   <!-- .element class="fragment" -->
-  - プログラミングで一攫千金
+  - 一攫千金プログラミング〜ボットdeジャックポット
   <!-- .element class="fragment" -->
 
 <!-- ~3minutes -->
@@ -71,13 +71,13 @@
 
 ---
 
-### ギノの場合 ~スカウトでの活用~
+### ギノの場合<span style="font-size: 70%">〜スカウトでの活用〜</span>
 ![](reveal_lightning_work/20180217_student_event/スカウトでの活用.svg)
 <!-- .element: style="width: 100%" -->
 
 ---
 
-### ギノの場合 ~面接での活用~
+### ギノの場合 <span style="font-size: 70%">〜面接での活用〜</span>
 ![](reveal_lightning_work/20180217_student_event/面接での活用.svg)
 <!-- .element: style="width: 80%" -->
 
@@ -118,9 +118,13 @@
 ### 基本的なデータ構造の理解
 
 * 多くの場合データが土台になる
+<!-- .element: class="fragment" -->
 * データ構造の選択ミスで読みづらいものができる
+<!-- .element: class="fragment" -->
 * データ構造のミスは修正し辛い
+<!-- .element: class="fragment" -->
 * データモデリング、DB設計の基礎にもなる
+<!-- .element: class="fragment" -->
 
 <!-- ~9minutes -->
 
@@ -139,18 +143,19 @@ class Task {
 ~~~
 
 ~~~java
+import java.util.*;
 /** 一番優先度の高いタスクを実行する人 */
 class TaskManager {
-    private List<Task> taskList = new ArrayList<>();
-    public TaskManager(List<Task> tasks) { this.taskList = tasks; }
-    // 一番優先度の高いタスクを実行する
-    public void executeFirstTask() {
-        for( Task task : taskList ) {
-            if(task.finish) continue;
-            task.execute();
-            break;
-        }
+  private List<Task> priorityOrderTasks = new ArrayList<>();
+  public TaskManager(List<Task> tasks){this.priorityOrderTasks=tasks;}
+  // 一番優先度の高いタスクを実行する
+  public void executeFirstTask() {
+    for( Task task : priorityOrderTasks ) {
+      if(task.finish) continue;
+      task.execute();
+      break;
     }
+  }
 }
 ~~~
 <!-- .element: style="font-size: 60%" -->
@@ -168,8 +173,10 @@ class Task {
     }
 }
 ~~~
+<!-- .element: style="font-size: 70%; width: 105%;" -->
 
 ~~~java
+import java.util.*;
 /** 一番優先度の高いタスクを実行する人 */
 class TaskManager {
     private Queue<Task> taskQueue = new ArrayDeque<>();// ☆変更
@@ -182,7 +189,7 @@ class TaskManager {
     }
 }
 ~~~
-<!-- .element: style="font-size: 60%" -->
+<!-- .element: style="font-size: 70%; width: 105%;" -->
 
 <!-- ~ 12minutes -->
 
@@ -204,7 +211,7 @@ class TaskManager {
 
 ---
 
-### このあたりも知りたい
+### このあたりも重要
 
 ![](reveal_lightning_work/20180217_student_event/実務のイメージ_測れない部分.svg) <!-- .element: style="width: 90%" -->
 
