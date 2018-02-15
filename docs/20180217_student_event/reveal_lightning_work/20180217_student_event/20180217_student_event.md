@@ -17,7 +17,7 @@
 
 ----------
 
-## <img src="reveal_lightning_work/20171014_student_event/xKb_JO9V_400x400.jpg" style="vertical-align: middle;"/> 自己紹介
+## <img src="reveal_lightning_work/20180217_student_event/xKb_JO9V_400x400.jpg" style="vertical-align: middle;"/> 自己紹介
 * **本名**：高村宏幸
 * **前職**：某大手メーカー系SIer(マネジメント主体)
 * **現職**：ギノのエンジニア
@@ -72,13 +72,13 @@
 ---
 
 ### ギノの場合 ~スカウトでの活用~
-![](reveal_lightning_work/20171014_student_event/スカウトでの活用.svg)
+![](reveal_lightning_work/20180217_student_event/スカウトでの活用.svg)
 <!-- .element: style="width: 100%" -->
 
 ---
 
 ### ギノの場合 ~面接での活用~
-![](reveal_lightning_work/20171014_student_event/面接での活用.svg)
+![](reveal_lightning_work/20180217_student_event/面接での活用.svg)
 <!-- .element: style="width: 80%" -->
 
 <!-- ~7minutes -->
@@ -86,7 +86,7 @@
 ---
 
 ### コードはとても重要な情報
-![](reveal_lightning_work/20171014_student_event/PAK86_codeing20140517_TP_V.jpg)
+![](reveal_lightning_work/20180217_student_event/PAK86_codeing20140517_TP_V.jpg)
 <!-- .element: style="width: 80%" -->
 
 ----------
@@ -98,7 +98,7 @@
 
 ### その前に、実務ってなに？(大枠)
 
-![](reveal_lightning_work/20171014_student_event/実務のイメージ.svg)
+![](reveal_lightning_work/20180217_student_event/実務のイメージ.svg)
 <!-- .element: style="width: 90%" -->
 
 <!-- ~8minutes -->
@@ -107,7 +107,7 @@
 
 ### 初級プログラマの役割(イメージ)
 
-![](reveal_lightning_work/20171014_student_event/実務のイメージ_最初.svg) <!-- .element: style="width: 90%" -->
+![](reveal_lightning_work/20180217_student_event/実務のイメージ_最初.svg) <!-- .element: style="width: 90%" -->
 
 ---
 
@@ -189,7 +189,7 @@ class TaskManager {
 ---
 
 #### **こんなのが積み重なって知らぬ間に辛くなる...**
-![](reveal_lightning_work/20171014_student_event/N825_hakisaretake-bururui_TP_V.jpg)<!-- .element: style="width: 70%" -->
+![](reveal_lightning_work/20180217_student_event/N825_hakisaretake-bururui_TP_V.jpg)<!-- .element: style="width: 70%" -->
 
 ----------
 
@@ -200,13 +200,13 @@ class TaskManager {
 
 ### 実務ってなに？ 再掲
 
-![](reveal_lightning_work/20171014_student_event/実務のイメージ_最初.svg) <!-- .element: style="width: 90%" -->
+![](reveal_lightning_work/20180217_student_event/実務のイメージ_最初.svg) <!-- .element: style="width: 90%" -->
 
 ---
 
 ### このあたりも知りたい
 
-![](reveal_lightning_work/20171014_student_event/実務のイメージ_測れない部分.svg) <!-- .element: style="width: 90%" -->
+![](reveal_lightning_work/20180217_student_event/実務のイメージ_測れない部分.svg) <!-- .element: style="width: 90%" -->
 
 <!-- ~ 13minutes -->
 
