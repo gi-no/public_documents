@@ -134,17 +134,17 @@
 ~~~java
 /** タスク本体 */
 class Task {
-    boolean finish = false;
-    public void execute() {
-        System.out.println("なんか処理");
-        this.finish = true;
-    }
+  boolean finish = false;
+  public void execute() {
+    System.out.println("なんか処理");
+    this.finish = true;
+  }
 }
 ~~~
 
 ~~~java
 import java.util.*;
-/** 一番優先度の高いタスクを実行する人 */
+/** タスクを実行する人 */
 class TaskManager {
   private List<Task> priorityOrderTasks = new ArrayList<>();
   public TaskManager(List<Task> tasks){this.priorityOrderTasks=tasks;}
@@ -168,25 +168,25 @@ class TaskManager {
 ~~~java
 /** タスク本体 */
 class Task {
-    public void execute() {
-        System.out.println("execute task" + this.hashCode());
-    }
+  public void execute() {
+    System.out.println("execute task" + this.hashCode());
+  }
 }
 ~~~
 <!-- .element: style="font-size: 65%; width: 105%;" -->
 
 ~~~java
 import java.util.*;
-/** 一番優先度の高いタスクを実行する人 */
+/** タスクを実行する人 */
 class TaskManager {
-    private Queue<Task> taskQueue = new ArrayDeque<>();// ☆変更
-    public TaskManager(Queue<Task> tasks) {
-        this.taskQueue = tasks;
-    }
-    // 一番優先度の高いタスクを実行する
-    public void executeFirstTask() {
-        if(!taskQueue.isEmpty()) taskQueue.poll().execute();// ☆変更
-    }
+  private Queue<Task> taskQueue = new ArrayDeque<>();// ☆変更
+  public TaskManager(Queue<Task> tasks) {
+    this.taskQueue = tasks;
+  }
+  // 一番優先度の高いタスクを実行する
+  public void executeFirstTask() {
+    if(!taskQueue.isEmpty()) taskQueue.poll().execute();// ☆変更
+  }
 }
 ~~~
 <!-- .element: style="font-size: 65%; width: 105%;" -->
@@ -223,7 +223,7 @@ class TaskManager {
 
 * 何かしら動かしてみせられるようなもの
 <!-- .element: style="font-size: 80%;"-->
-* 例えば、自分がちょっと面倒に思うことを改善するようなもの
+* 例えば、自分がちょっと面倒(課題)に思うことを改善するようなもの
 <!-- .element: style="font-size: 80%;"-->
 * とりあえず、あまり難しく考えないでつくってみるとよい
 <!-- .element: style="font-size: 80%;"-->
@@ -243,6 +243,7 @@ class TaskManager {
 Qiita記事にまとめておいたので、よろしければどうぞ
 <!-- .element: style="font-size: 80%;"-->
   - [Qiita：初学者向け：CI連携やHerokuへの自動デプロイも含めたRails環境構築の手引書](https://qiita.com/yukimura1227/items/9860360e7b9afeb3210d)
+* ちょっと見せるのに[PaizaCloud](https://paiza.cloud)もおすすめです
 <!-- ~ 15minutes -->
 
 ----------
