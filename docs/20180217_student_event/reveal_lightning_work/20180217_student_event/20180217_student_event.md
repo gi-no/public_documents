@@ -195,7 +195,6 @@ class TaskManager {
 
 ---
 
-* 
 #### **こんなのが積み重なって知らぬ間に辛くなる...**
 ![](reveal_lightning_work/20180217_student_event/N825_hakisaretake-bururui_TP_V.jpg)<!-- .element: style="width: 70%" -->
 
