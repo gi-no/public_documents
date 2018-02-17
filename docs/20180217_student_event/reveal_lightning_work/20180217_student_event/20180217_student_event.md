@@ -57,11 +57,11 @@
 
 ### 何を計測しようとしているか  
 **(期待しているスキル)**
-- 基本的な <span style="color: lime"> **データ構造** </span>を知ってる？使える？
-* <span style="color: lime"> **再帰処理** </span>とか手慣れてるよね？
-* <span style="color: lime"> **計算量** の概念</span>を知っている？効率を意識できる？
-* <span style="color: lime"> 基礎的な **アルゴリズム** </span>を知ってる？使える？
-* 現実的な時間で作れる？ ...etc
+- <span class="fragment">基本的な <span style="color: lime"> **データ構造** </span>を知ってる？使える？</span>
+- <span class="fragment"><span style="color: lime"> **再帰処理** </span>とか手慣れてるよね？</span>
+- <span class="fragment"><span style="color: lime"> **計算量** の概念</span>を知っている？効率を意識できる？</span>
+- <span class="fragment"><span style="color: lime"> 基礎的な **アルゴリズム** </span>を知ってる？使える？</span>
+- <span class="fragment">現実的な時間で作れる？ ...etc</span>
 
 <!-- ~5minutes -->
 
@@ -146,7 +146,7 @@ class Task {
 import java.util.*;
 /** タスクを実行する人 */
 class TaskManager {
-  private List<Task> priorityOrderTasks = new ArrayList<>();
+  private List<Task> priorityOrderTasks;
   public TaskManager(List<Task> tasks){this.priorityOrderTasks=tasks;}
   // 一番優先度の高いタスクを実行する
   public void executeFirstTask() {
@@ -169,7 +169,7 @@ class TaskManager {
 /** タスク本体 */
 class Task {
   public void execute() {
-    System.out.println("execute task" + this.hashCode());
+    System.out.println("なんか処理");
   }
 }
 ~~~
@@ -179,13 +179,13 @@ class Task {
 import java.util.*;
 /** タスクを実行する人 */
 class TaskManager {
-  private Queue<Task> taskQueue = new ArrayDeque<>();// ☆変更
+  private Queue<Task> priorityOrderTasks;// ☆変更
   public TaskManager(Queue<Task> tasks) {
-    this.taskQueue = tasks;
+    this.priorityOrderTasks = tasks;
   }
   // 一番優先度の高いタスクを実行する
   public void executeFirstTask() {
-    if(!taskQueue.isEmpty()) taskQueue.poll().execute();// ☆変更
+    if(!priorityOrderTasks.isEmpty()) priorityOrderTasks.poll().execute();// ☆変更
   }
 }
 ~~~
@@ -195,6 +195,7 @@ class TaskManager {
 
 ---
 
+* 
 #### **こんなのが積み重なって知らぬ間に辛くなる...**
 ![](reveal_lightning_work/20180217_student_event/N825_hakisaretake-bururui_TP_V.jpg)<!-- .element: style="width: 70%" -->
 
@@ -219,15 +220,15 @@ class TaskManager {
 
 ---
 
-#### **何か作品つくって公開しておくと良い**
+#### **何かつくって公開しておくと良い**
 
-* 何かしら動かしてみせられるようなもの
+- 例えば、自分がちょっと面倒(課題)なことを改善するようなもの
 <!-- .element: style="font-size: 80%;"-->
-* 例えば、自分がちょっと面倒(課題)に思うことを改善するようなもの
+- 何かしら動かしてみせられるようなもの
 <!-- .element: style="font-size: 80%;"-->
-* とりあえず、あまり難しく考えないでつくってみるとよい
+- とりあえず、あまり難しく考えないでつくってみるとよい
 <!-- .element: style="font-size: 80%;"-->
-* 話すの苦手な人は、特にモノに語らせるとよい
+- 話すの苦手な人は、特にモノに語らせるとよい
 <!-- .element: style="font-size: 80%;"-->
 
 <!-- ~ 14minutes -->
@@ -235,15 +236,15 @@ class TaskManager {
 ---
 
 ### おまけ
-* paizaにもポートフォリオ関連動画があるのでご活用ください
+- paizaにもポートフォリオ関連動画があるのでご活用ください
 <!-- .element: style="font-size: 80%;"-->
   - [学習動画:ITエンジニアの就活準備編2: ポートフォリオ制作](https://paiza.jp/works/career/primer/career2)
+- ちょっと見せるのに[PaizaCloud](https://paiza.cloud)もおすすめです
 
-* 公開方法に困っている方は、(RubyOnRailsむけですが..)  
+- 公開方法に困っている方は、(RubyOnRailsむけですが..)  
 Qiita記事にまとめておいたので、よろしければどうぞ
 <!-- .element: style="font-size: 80%;"-->
   - [Qiita：初学者向け：CI連携やHerokuへの自動デプロイも含めたRails環境構築の手引書](https://qiita.com/yukimura1227/items/9860360e7b9afeb3210d)
-* ちょっと見せるのに[PaizaCloud](https://paiza.cloud)もおすすめです
 <!-- ~ 15minutes -->
 
 ----------
