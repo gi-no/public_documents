@@ -6,6 +6,7 @@
 | [リーダブルコード](https://www.amazon.co.jp/dp/4873115655) | チームで開発をするときに大事な、コードを読みやすくするべきという概念や気をつけるべき観点を理解する | 最初 | チーム開発,クリーンコード,リファクタリング | 
 | [Web制作者のためのCSS設計の教科書](https://www.amazon.co.jp/dp/4844336355) | TODO | css書く必要がでてきた時 | フロントエンド,CSS,デザイン | 
 | [1冊ですべて身につくHTML & CSSとWebデザイン入門講座](https://www.amazon.co.jp/dp/4797398892) | TODO | | | 
+| [たのしいRuby 第6版](https://www.amazon.co.jp/dp/B07PNN3TYF) | TODO | | | 
 | [SCRUM BOOT CAMP THE BOOK](https://www.amazon.co.jp/dp/4798129712) | TODO | | チーム開発,Scrum| 
 | [アジャイルサムライ−達人開発者への道−](https://www.amazon.co.jp/dp/4274068560) | TODO | | チーム開発,Scrum| 
 | [ノンデザイナーズ・デザインブック](https://www.amazon.co.jp/dp/4839955557) | TODO | | フロントエンド,デザイン| 
